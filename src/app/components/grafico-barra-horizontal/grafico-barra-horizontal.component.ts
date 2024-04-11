@@ -40,18 +40,16 @@ export class GraficoBarraHorizontalComponent {
 
   constructor() {
 
-/*
     setInterval(() => {
 
       const newResults = [...this.results]
 
       for (let i in newResults) {
-        newResults[i].value = Math.round(Math.random() * 500)
+        newResults[i].value = Math.round(Math.random() * 100)
       }
 
       this.results = [...newResults]
-    }, 5000)
-*/
+    }, 1500)
 
   }
 
